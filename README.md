@@ -20,13 +20,13 @@ API is an acronym that stands for application programming interface.
  - Program (P) executes the task within the application
  - Interface (I) is a place where you can tell the program to run within that application
 
-Simple APIs
+**Simple APIs**
 
 A simple API is where you can access the interface of the application using a browser or mobile app. 
 
 For example, the Google homepage is an interface through which you can tell the Google application to run a program to perform a search and provide you back with a web page of the results.
 
-Complex APIs
+**Complex APIs**
 
 A complex API is where you have to access the interface at the server location to run the program.  
 
@@ -43,9 +43,9 @@ You also have the flexibility to interface with that software using any method y
 
 An API transaction workflow is as follows:
 
- - A request is made for a task to be performed
- - A program is run to complete that request
- - The program sends back a response with the results
+1. A request is made for a task to be performed
+2. A program is run to complete that request
+3. The program sends back a response with the results
  
  If the API request and response are sent over the internet, then the API is called a “Web Service API.”
 
@@ -59,6 +59,13 @@ An API transaction workflow is as follows:
 > ## Understanding HTTP
 
 The request and response are transferred over the internet using a protocol called HTTP (HyperText Transfer Protocol). The HTTP protocol has four parts for request and response:
+
+| HTTP                   | Request                                                                                                                                                                                                                                    | Response                                                                                                                                                                                                            |
+|------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Start line (mandatory) | Starts the program and tells it what to do. - HTTP version  - Method  - API program folder name - Request parameters                                                                                                                       | Contains the status code that says if the request was processed successfully. - HTTP version  - Status Code                                                                                                         |
+| Headers                | Provides additional information about the request. For example, HOST specifies the URL domain. HOST: www.google.com. Another example of a request header is a token.  If the API has security enabled then you can specify the token here. | Provides additional information about the response. For example, a cookie that is stored on your computer to keep track of your preferences. Another example of a response header is the size of the response file. |
+| Blank line             | Separates the header from the body                                                                                                                                                                                                         |                                                                                                                                                                                                                     |
+| Body                   | Sends the actual request to the program.  In case of a GET request, the body would be empty.  For POST, it may contain the information that you want to send to the server.                                                                | Sends back the requested information.  For example, an HTML web page.                                                                                                                                               |
 
 ![intro-2](https://user-images.githubusercontent.com/4720428/50611167-4f497280-0e8a-11e9-8180-dac65c2a1bdf.png)
 
