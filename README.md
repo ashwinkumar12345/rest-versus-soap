@@ -14,10 +14,11 @@ To fully understand the difference between REST and SOAP, it is important to und
 
 <a name="overview"></a>
 > ## API Overview
-- API is an acronym that stands for application programming interface.
-  - Application (A) is a piece of software code that performs a task
-  - Program (P) executes the task within the application
-  - Interface (I) is a place where you can tell the program to run within that application
+
+API is an acronym that stands for application programming interface.
+ - Application (A) is a piece of software code that performs a task
+ - Program (P) executes the task within the application
+ - Interface (I) is a place where you can tell the program to run within that application
 
 Simple APIs
 
@@ -40,7 +41,11 @@ You also have the flexibility to interface with that software using any method y
 <a name="UnderstandingAPIs"></a>
 > ## Understanding APIs
 
-- Network of nodes (computers)
+An API transaction workflow is as follows:
+
+ - A request is made for a task to be performed
+ - A program is run to complete that request
+ - The program sends back a response with the results
 
 ![intro-1](https://user-images.githubusercontent.com/4720428/50610712-cf6ed880-0e88-11e9-9344-03a3f4aaa84f.png)
 
