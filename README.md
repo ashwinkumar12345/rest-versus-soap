@@ -14,12 +14,28 @@ To fully understand the difference between REST and SOAP, it is important to und
 
 <a name="overview"></a>
 > ## API Overview
-- Oct 31st, 2008 Bitcoin Whitepaper
-"Bitcoin: A Peer-to-Peer Electronic Cash System" 
-(https://bitcoin.org/bitcoin.pdf)
+- API is an acronym that stands for application programming interface.
+  - Application (A) is a piece of software code that performs a task
+  - Program (P) executes the task within the application
+  - Interface (I) is a place where you can tell the program to run within that application
 
-- Dec, 2013 Ethereum Whitepaper
-"Ethereum: The Ultimate Smart Contract and Decentralized Application Platform" (http://web.archive.org/web/20131228111141/http://vbuterin.com/ethereum.html)
+Simple APIs
+
+A simple API is where you can access the interface of the application using a browser or mobile app. 
+
+For example, the Google homepage is an interface through which you can tell the Google application to run a program to perform a search and provide you back with a web page of the results.
+
+Complex APIs
+
+A complex API is where you have to access the interface at the server location to run the program.  
+
+For example, to use the Google Translation API you have to access the interface on the Google translation server and run the translation program on that server.
+
+In general, the term API refers to Complex APIs.
+
+Accessing the interface where the software is located is cost efficient for the software vendor because they do not have to build a web or mobile app for you to interact with that software.
+
+You also have the flexibility to interface with that software using any method you choose. 
 
 <a name="UnderstandingAPIs"></a>
 > ## Understanding APIs
