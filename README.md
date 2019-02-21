@@ -67,7 +67,31 @@ The request and response are transferred over the internet using a protocol call
 | Blank line             | Separates the header from the body                                                                                                                                                                                                         |                                                                                                                                                                                                                     |
 | Body                   | Sends the actual request to the program.  In case of a GET request, the body would be empty.  For POST, it may contain the information that you want to send to the server.                                                                | Sends back the requested information.  For example, an HTML web page.                                                                                                                                               |
 
-![intro-2](https://user-images.githubusercontent.com/4720428/50611167-4f497280-0e8a-11e9-8180-dac65c2a1bdf.png)
+The main methods used in the HTTP request are:
+
+- GET 
+  Request information.
+
+- POST
+  Create information.
+
+- PUT
+  Change information.
+
+- DELETE
+  Delete information.
+
+An example of an HTTP request is as follows:
+```
+GET /search?q=API HTTP/1.1
+```
+
+An example of an HTTP response is as follows:
+```
+HTTP/1.1 200 OK
+```
+The most popular protocols used to form the HTTP requests and responses are REST and SOAP.
+
 
 <a name="UnderstandingSOAP"></a>
 > ## Understanding SOAP
