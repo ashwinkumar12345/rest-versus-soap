@@ -46,8 +46,10 @@ An API transaction workflow is as follows:
  - A request is made for a task to be performed
  - A program is run to complete that request
  - The program sends back a response with the results
+ 
+ If the API request and response are sent over the internet, then the API is called a “Web Service API.”
 
-![intro-1](https://user-images.githubusercontent.com/4720428/50610712-cf6ed880-0e88-11e9-9344-03a3f4aaa84f.png)
+![restvssoap1](https://user-images.githubusercontent.com/4720428/53135555-8b1ac300-3530-11e9-9743-d81b20a76c88.png)
 
 - Used to transfer money and store data
 - Anyone can download an Ethereum client and run a node
@@ -56,8 +58,7 @@ An API transaction workflow is as follows:
 <a name="UnderstandingHTTP"></a>
 > ## Understanding HTTP
 
-- For Developers: web3.js
-- For Consumers: Metamask (chrome extension) or Mist Browser
+The request and response are transferred over the internet using a protocol called HTTP (HyperText Transfer Protocol). The HTTP protocol has four parts for request and response:
 
 ![intro-2](https://user-images.githubusercontent.com/4720428/50611167-4f497280-0e8a-11e9-8180-dac65c2a1bdf.png)
 
