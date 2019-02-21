@@ -138,20 +138,48 @@ xmlns:hws="http://www.holidaywebservice.com/HolidayService_v2/"> //WSDL will tel
 <a name="UnderstandingREST"></a>
 > ## Understanding REST
 
-- Main (productions apps and where ether has value)
-- Ropsten
-- Kovan
-- Rinkeby
-- localhost
-- Custom RPC
+REST is an acronym that stands for representational state transfer. It is used to complete a web service using HTTP.
+
+In REST, the method contains the verb which specifies the action that you want the server to perform.
+
+In the database world, if you have a table with records in it, you can create a record, read the record, update the record, and delete the record.
+
+REST is essentially making these calls to the records in the backend database. 
+
+In REST, the HTTP request is created as follows:
+
+1. Start Line: {Method} {HTTP version}
+   - You can use any method. For example, GET, POST, PUT, DELETE, and so on.
+
+2. Header Line
+   - You can use any data format. For example, JSON, XML, HTML, and so on.
+
+3. Body
+   - You can use any data format. For example, JSON, XML, HTML, and so on.
+
+`Example of using a REST-based web service`
+
+- Web service: developer.ebay.com 
+  - This web service provides access to items listed on eBay.
+
+- Method:  GET
+- URL: https://api.sandbox.ebay.com/buy/browse/v1/item_summary/search?q=computer&limit=5 
+
+You will get back a JSON document with five items with the term “computer” in the title. 
+
 
 <a name="RESTversusSOAP"></a>
 > ## REST versus SOAP
 
-- Your account consists of your account address, your public key, and your private key
-- Account address is similar to your email address
-- Public and private keys together form your password
-- These are hex numbers, once converted to base10 => 8 x 10^79 (incomprehensibly large, cannot be guessed)
+In SOAP, you have a WSDL that you have to follow. With REST, you can just tell the program what to do using the method. 
+
+In SOAP, you can only use XML-formatted data in the body. With REST, you can use any data format.
+
+REST is stateless. You send a request to a server, if the server is running it sends you back the results, if it is not running it waits until the server starts running again and then sends you back the results. In SOAP, if the server is not running, your request results in an error.
+
+REST is the most preferred method of creating APIs today because REST is much simpler to implement than SOAP.
+
+The graph below shows the growth of REST in comparison with SOAP. The usage of SOAP is declining and REST is exploding in popularity.
 
 ![intro-3](https://user-images.githubusercontent.com/4720428/50611521-9e43d780-0e8b-11e9-8280-74d39ab688d2.png)
 
