@@ -181,7 +181,7 @@ REST is the most preferred method of creating APIs today because REST is much si
 
 The graph below shows the growth of REST in comparison with SOAP. The usage of SOAP is declining and REST is exploding in popularity.
 
-![intro-3](https://user-images.githubusercontent.com/4720428/50611521-9e43d780-0e8b-11e9-8280-74d39ab688d2.png)
+![restvssoap2](https://user-images.githubusercontent.com/4720428/53136395-b226c400-3533-11e9-9cb7-6828c97febcc.png)
 
 
 
