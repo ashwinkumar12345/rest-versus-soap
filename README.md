@@ -51,10 +51,6 @@ An API transaction workflow is as follows:
 
 ![restvssoap1](https://user-images.githubusercontent.com/4720428/53135555-8b1ac300-3530-11e9-9743-d81b20a76c88.png)
 
-- Used to transfer money and store data
-- Anyone can download an Ethereum client and run a node
-- Each node has a complete copy of the blockchain
-
 <a name="UnderstandingHTTP"></a>
 > ## Understanding HTTP
 
