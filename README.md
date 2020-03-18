@@ -1,6 +1,6 @@
 # Comparing REST and SOAP Web Services
 
-To fully understand the difference between REST and SOAP, it is important to understand what an API is and how it works, how to use HTTP and perform REST and SOAP operations.
+To fully understand the difference between REST and SOAP, it is important to understand what an API is and how it works. 
 
 > ## Contents
 
@@ -17,26 +17,24 @@ To fully understand the difference between REST and SOAP, it is important to und
 
 API is an acronym that stands for application programming interface.
  - Application (A) is a piece of software code that performs a task
- - Program (P) executes the task within the application
- - Interface (I) is a place where you can tell the program to run within that application
+ - Program (P) is a set of instructions to execute the task within the application
+ - Interface (I) is a place where you can tell the program to run
 
 **Simple APIs**
 
-A simple API is where you can access the interface of the application using a browser or mobile app. 
+You can access the interface of the application using a browser or mobile app. 
 
-For example, the Google homepage is an interface through which you can tell the Google application to run a program to perform a search and provide you back with a web page of the results.
+For example, the Google homepage is an interface on your browser through which you run a program to perform a search and send you a web page with the results.
 
 **Complex APIs**
 
-A complex API is where you have to access the interface at the server location to run the program.  
+You have to access the interface at the server location.  
 
-For example, to use the Google Translation API you have to access the interface on the Google translation server and run the translation program on that server.
+For example, the Google Translation API is an the interface on the Google translation server through which you can run the translation program.
 
-In general, the term API refers to Complex APIs.
+Typically, the term API refers to complex APIs.
 
-Accessing the interface where the software is located is cost efficient for the software vendor because they do not have to build a web or mobile app for you to interact with that software.
-
-You also have the flexibility to interface with that software using any method you choose. 
+Accessing the interface where the software is located is cost efficient for the software vendor because they do not have to build a web or mobile app for you to interact with that software. You also have the flexibility to interface with that software using any method you choose. 
 
 <a name="UnderstandingAPIs"></a>
 > ## Understanding APIs
@@ -47,14 +45,15 @@ An API transaction workflow is as follows:
 2. A program is run to complete that request
 3. The program sends back a response with the results
  
- If the API request and response are sent over the internet, then the API is called a “Web Service API.”
+ If the API request and response are sent over the internet, then the API is called a web service API.
 
 ![restvssoap1](https://user-images.githubusercontent.com/4720428/53135555-8b1ac300-3530-11e9-9743-d81b20a76c88.png)
 
 <a name="UnderstandingHTTP"></a>
 > ## Understanding HTTP
 
-The request and response are transferred over the internet using a protocol called HTTP (HyperText Transfer Protocol). The HTTP protocol has four parts for request and response:
+The request and response are transferred over the Internet using a protocol called HTTP (HyperText Transfer Protocol). 
+The HTTP protocol has four parts for request and response:
 
 | HTTP                   | Request                                                                                                                                                                                                                                    | Response                                                                                                                                                                                                            |
 |------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
