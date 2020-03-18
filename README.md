@@ -45,7 +45,7 @@ An API transaction workflow is as follows:
 2. A program is run to complete that request.
 3. The program sends back a response with the results.
  
-If the requests and responses are sent over the internet, then the API is called a web service API.
+If the requests and responses are sent over the Internet, then the API is called a web service API.
 
 ![restvssoap1](https://user-images.githubusercontent.com/4720428/53135555-8b1ac300-3530-11e9-9743-d81b20a76c88.png)
 
