@@ -34,7 +34,7 @@ For example, the Google Translation API is an the interface for the Google trans
 
 Typically, the term API refers to a complex API.
 
-Accessing the interface where the software is located is cost efficient for the software vendor, because they do not have to build a web or mobile app for you to interact with. You also have the flexibility to write your own interface to interact with with that software. 
+Accessing the interface where the software is located is cost efficient for the software vendor, because they do not have to build a web or mobile app for you to interact with. You also have the flexibility to write your own interface to interact with that software. 
 
 <a name="UnderstandingAPIs"></a>
 > ## Understanding APIs
