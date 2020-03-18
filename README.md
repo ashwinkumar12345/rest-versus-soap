@@ -1,6 +1,6 @@
 # Comparing REST and SOAP Web Services
 
-To fully understand the difference between REST and SOAP, it is important to understand what an API is and how it works. 
+To fully understand the difference between REST and SOAP, it's important to understand what an API is and how it works. 
 
 > ## Contents
 
